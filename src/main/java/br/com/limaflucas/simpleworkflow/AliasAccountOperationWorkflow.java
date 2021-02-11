@@ -88,5 +88,4 @@ public class AliasAccountOperationWorkflow extends WorkflowDefinition<States> {
         log.info("some error. Starting over");
         return NextAction.moveToStateAfter(States.getAccountData, DateTime.now().plusSeconds(3), "start over on error");
     }
-    
 }
