@@ -1,0 +1,15 @@
+spring:
+    profiles:
+        active: nflow.db.h2
+    # datasource:
+    #     url: jdbc:postgresql://localhost:5432/nflow
+    #     username: postgres
+    #     password: postgres
+    # jpa:
+    #     hibernate:
+    #         ddl-auto: create
+    #     show-sql: true
+logging:
+    level:
+        root: WARN
+        br.com.limaflucas: INFO
